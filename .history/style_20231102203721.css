@@ -11,7 +11,7 @@
     font-family: "Poppins";
 }
 body {
-    background-color: rgb(2, 16, 72);
+    background-color: #ffffff;
 }
 img {
     width: 100%;
@@ -90,14 +90,11 @@ nav ul li a:active {
 }
 
 .rounded-section {
-    background: #ffffff;
-    border-radius: 10px; 
-    padding: 400px;
-    display: flex;
-    align-items: center;
-    width: 97%;
-    height: 70px;
-    margin: 20px;
+    background: #fefefe;
+    border-radius: 20px 20px 0px  0px;
+    padding: 20px;
+    ;
+    width: 100%;
 }
 
 .biography-content {

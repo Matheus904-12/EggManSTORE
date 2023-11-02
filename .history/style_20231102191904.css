@@ -11,7 +11,7 @@
     font-family: "Poppins";
 }
 body {
-    background-color: rgb(2, 16, 72);
+    background-color: #E3E9F7;
 }
 img {
     width: 100%;
@@ -19,7 +19,7 @@ img {
 header {
     width: 97%;
     height: 70px;
-    background: #000000;
+    background: #FEFEFE;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,24 +27,6 @@ header {
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
 }
-
-.site-title {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: -1;
-    opacity: 0;
-    animation: slideIn 1s forwards;
-}
-
-@keyframes slideIn {
-    100% {
-        transform: translateY(-50%) translateX(100%);
-        opacity: 1;
-    }
-}
-
 .logo {
     width: 60px;
     margin-top: 8px;
@@ -56,7 +38,7 @@ nav ul {
     display: flex;
 }
 nav ul li a {
-    color: #ffffff;
+    color: #212526;
     display: block;
     margin: 0 2px;
     font-weight: 600;
@@ -68,7 +50,7 @@ nav ul li a:hover {
     background: #F6F4FF;
 }
 nav ul li a:active {
-    background: #c7c72e;
+    background: #4a2ec7;
     color: #FFF;
 }
 .hamburger {
@@ -86,72 +68,16 @@ nav ul li a:active {
     width: 30px;
     height: 2px;
     margin: 6px 0;
-    background: #ffffff;
+    background: #212526;
 }
 
 .rounded-section {
-    background: #ffffff;
-    border-radius: 10px; 
-    padding: 400px;
-    display: flex;
-    align-items: center;
-    width: 97%;
-    height: 70px;
+    background: #FEFEFE;
+    border-radius: 10px;
+    padding: 20px;
     margin: 20px;
+    width: 97%;
 }
-
-.biography-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.biography-text {
-    width: 40%;
-}
-
-.button-container {
-    width: 40%;
-    text-align: center;
-}
-
-.more-button {
-    padding: 10px 20px;
-    background-color: #4a2ec7;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.image-carousel {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    width: 100%;
-}
-
-.image-item {
-    flex-shrink: 0;
-    scroll-snap-align: start;
-}
-
-.image-item img {
-    width: 100%;
-    transition: transform 0.3s;
-}
-
-.image-item img:hover {
-    transform: scale(1.1);
-}
-
-.progress-bar {
-    height: 5px;
-    background-color: #ccc;
-    width: 100%;
-    margin-top: 10px;
-}
-
 
 .background-container img {
     width: 50%; /* Ou qualquer outra porcentagem que você preferir */
@@ -180,41 +106,6 @@ nav ul li a:active {
     cursor: pointer;
 }
 
-.sales-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.sales-icons img {
-    margin-right: 10px;
-}
-
-.product-cards {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.product-card {
-    width: 300px;
-    margin: 0 10px 20px 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.product-card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.product-card input[type="file"] {
-    margin-top: 10px;
-}
 
 
 @media only screen and (max-width: 1100px) {

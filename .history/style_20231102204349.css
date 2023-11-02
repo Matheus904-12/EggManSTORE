@@ -92,12 +92,8 @@ nav ul li a:active {
 .rounded-section {
     background: #ffffff;
     border-radius: 10px; 
-    padding: 400px;
-    display: flex;
-    align-items: center;
-    width: 97%;
-    height: 70px;
-    margin: 20px;
+    padding: 40px;
+    width: 100%;
 }
 
 .biography-content {
