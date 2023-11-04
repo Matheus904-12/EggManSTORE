@@ -38,52 +38,6 @@ header {
     animation: slideIn 1s forwards;
 }
 
-.marketplace {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.marketplace h2 {
-    margin-bottom: 20px;
-}
-
-.search-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.sales-icons {
-    margin-right: 10px;
-}
-
-.sales-icons img {
-    margin-right: 10px;
-}
-
-.search-bar input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.search-bar button {
-    background-color: #c72e2e;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.product-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .product-card {
     width: 300px;
     margin: 0 10px 20px 10px;
